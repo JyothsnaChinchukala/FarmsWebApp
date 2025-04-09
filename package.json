@@ -4,12 +4,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start"
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "homepage": "https://jyothsnachinchukala.github.io/FarmsWebApp",
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -42,6 +46,7 @@
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.2.5",
     "eslint-plugin-react": "7.37.4",
-    "eslint-plugin-react-hooks": "4.6.2"
+    "eslint-plugin-react-hooks": "4.6.2",
+    "gh-pages": "6.3.0"
   }
 }
