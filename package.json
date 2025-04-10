@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "homepage": "https://jyothsnachinchukala.github.io/FarmsWebApp",
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",

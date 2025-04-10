@@ -6,7 +6,6 @@ import LiveStockRoute from './components/LiveStockRoute'
 import ContactUsRoute from './components/ContactUsRoute'
 import ThemeContext from './context/ThemeContext'
 import './App.css'
-/* "homepage": "https://jyothsnachinchukala.github.io/FarmsWebApp", */
 
 class App extends Component {
   state = {isLightTheme: true}
