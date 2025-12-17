@@ -89,8 +89,6 @@ npm run build
 npm run deploy
 ```
 
-The application is automatically deployed to: https://jyothsnachinchukala.github.io/FarmsWebApp
-
 ## 📁 Project Structure
 
 ```
